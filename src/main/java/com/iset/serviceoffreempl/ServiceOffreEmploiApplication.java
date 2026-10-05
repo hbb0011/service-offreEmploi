@@ -17,7 +17,7 @@ public class ServiceOffreEmploiApplication implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
         // TODO Auto-generated method stub
-        offreRepository.save(new Offre("Web Design", "informatique","AXA", 2, "France"));
+        offreRepository.save(new Offre("Web design", "informatique","AXA", 2, "France"));
         offreRepository.save(new Offre("Developpeur", "informatique","Talys", 3, "Tunisie"));
         offreRepository.save(new Offre("Architecte", "informatique","SIS", 2, "Allemagne"));
 
